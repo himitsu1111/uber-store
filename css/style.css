@@ -35,6 +35,11 @@ header {
 .header_button_signin {
   margin-left: 92px;
 }
+.header_button_register {
+  margin-left: 16px;
+  background-color: black;
+  color: white;
+}
 
 .header_span {
   margin-left: 9px;
