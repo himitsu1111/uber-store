@@ -26,21 +26,29 @@ header {
   display: inline-flex;
   align-items: center;
 }
-
 .header_button_asap {
   margin-left: 124px;
+}
+.header_button_location {
+  margin-left: 9px;
+}
+.header_button_signin {
+  margin-left: 92px;
 }
 
 .header_span {
   margin-left: 9px;
+}
+.header_span_location {
+  width: 240px;
+  text-align: left;
 }
 
 .icon-img-location {
   content: url("../svg/map_pin_icon.svg");
   display: inline-flex;
   align-items: center;
+  margin-right: 12px;
 }
-
-/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */

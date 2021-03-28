@@ -1,15 +1,27 @@
 .base-style-text {
-  size: 16px;
+  font-size: 16px;
   line-height: 22px;
   font-weight: 400;
   font-family: Roboto;
 }
 
 .second-style-text {
-  size: 12px;
+  font-size: 12px;
   line-height: 24px;
 }
 
-/*# sourceMappingURL=font-styles.css.map */
+.header-sign-in-text {
+  font-size: 13px;
+  line-height: 22px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.header-to-text {
+  font-size: 16px;
+  line-height: 18px;
+  font-family: Roboto;
+  font-weight: 300;
+}
 
 /*# sourceMappingURL=font-styles.css.map */
