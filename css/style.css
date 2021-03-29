@@ -24,11 +24,6 @@ footer {
   background-color: #262626;
 }
 
-.footer_content {
-  width: 956px;
-  height: 300px;
-}
-
 .header_button {
   padding: 8px 12px;
   border: 1px solid #E0E0E0;
@@ -155,11 +150,72 @@ h3 {
 
 .footer_content {
   width: 956px;
+  height: 400px;
   margin: 0 auto;
 }
 .footer_content_logo {
   margin-top: 56px;
   content: url("../svg/footer_logo_uber.svg");
+}
+
+.custom-select {
+  background-color: #3b3b3b;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.custom-select.open .custom-options {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+.custom-select_arrow-down {
+  margin-right: 8px;
+}
+.custom-select_selected {
+  margin-left: 17px;
+  margin-right: auto;
+}
+.custom-select__trigger {
+  width: 227px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.custom-select_arrow-down {
+  content: url("../svg/arrow-down.svg");
+}
+.custom-select_icon {
+  margin-left: 25px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  content: url("../svg/world.svg");
+}
+
+.custom-options {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+.custom-options_option {
+  padding-left: 48px;
+  display: block;
+  background-color: #3b3b3b;
+}
+.custom-options_option:hover {
+  background-color: #3b3b3ba9;
+}
+
+.footer_content_flexbox {
+  margin-top: 32px;
+  display: flex;
+}
+.footer_content_flexbox_left_language {
+  max-height: 40px;
+  max-width: 227px;
+  width: 100%;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
