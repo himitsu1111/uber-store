@@ -16,3 +16,12 @@ for (const option of document.querySelectorAll(".custom-options_option")) {
         }
     })
 }
+
+window.onscroll = function () {
+    console.log("scroll");
+    if (pageYOffset >= 200) {
+        document.getElementById('backToTop').style.visibility = "visible";
+    } else {
+ document.getElementById('backToTop').style.visibility = "hidden";
+    }
+};

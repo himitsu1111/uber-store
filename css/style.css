@@ -139,7 +139,7 @@ h3 {
   margin-bottom: 20px;
 }
 
-.footer-wide-underscore {
+.footer-wide-underscore, .footer-wide-underscore_after-hashtags {
   margin: 0 auto;
   height: 1px;
   width: 956px;
@@ -147,10 +147,13 @@ h3 {
   background: #fff;
   opacity: 0.4;
 }
+.footer-wide-underscore_after-hashtags {
+  margin-top: 48px;
+}
 
 .footer_content {
   width: 956px;
-  height: 400px;
+  height: 600px;
   margin: 0 auto;
 }
 .footer_content_logo {
@@ -204,7 +207,7 @@ h3 {
   background-color: #3b3b3b;
 }
 .custom-options_option:hover {
-  background-color: #3b3b3ba9;
+  background-color: #303030;
 }
 
 .footer_content_flexbox {
@@ -216,6 +219,85 @@ h3 {
   max-width: 227px;
   width: 100%;
   position: relative;
+}
+.footer_content_flexbox_left_hashtag {
+  margin-top: 33px;
+}
+.footer_content_flexbox_left_icons {
+  margin-top: 20px;
+}
+.footer_content_flexbox_middle {
+  margin-left: 97px;
+}
+.footer_content_flexbox_middle_href {
+  margin-bottom: 23px;
+  display: block;
+  width: fit-content;
+}
+.footer_content_flexbox_middle_href:last-of-type {
+  margin-bottom: 0;
+}
+.footer_content_flexbox_right {
+  margin-left: 154px;
+}
+.footer_content_flexbox_right_href {
+  margin-bottom: 23px;
+  display: block;
+  width: fit-content;
+}
+.footer_content_flexbox_right_href:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer_stores-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_stores-links_inline-links {
+  display: inline-flex;
+  margin-top: 40px;
+}
+.footer_stores-links_inline-links_href:last-of-type {
+  margin-left: 41px;
+}
+
+.footer_copyright {
+  margin-top: 40px;
+  display: flex;
+}
+.footer_copyright_middle {
+  margin-left: 174px;
+}
+.footer_copyright_middle_privacy {
+  text-decoration: none;
+}
+.footer_copyright_right {
+  margin-left: 288px;
+}
+.footer_copyright_right_terms {
+  text-decoration: none;
+}
+
+.button-up {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  right: 16px;
+  bottom: 24px;
+}
+.button-up_button_href {
+  display: flex;
+  justify-content: center;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  width: inherit;
+  height: inherit;
+  background-color: #59bd5a;
+}
+.button-up_button_href_arrow {
+  width: fit-content;
 }
 
 /*# sourceMappingURL=style.css.map */
